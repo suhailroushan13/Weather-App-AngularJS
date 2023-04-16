@@ -1,0 +1,41 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 240px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-header {
+  justify-content: left;
+  text-align: center;
+}
+.mycontainer {
+  width: 850px;
+  height: 300px;
+  margin-left: 610px;
+  justify-content: center;
+  text-align: center;
+}
+
+.des {
+  text-align: center;
+  padding: 30px;
+}
+
+.own {
+  justify-content: center;
+  text-align: center;
+}
+
+.card-body {
+  justify-content: left;
+  text-align: left;
+  font-size: 20px;
+}
+.card-text {
+  justify-content: left;
+  text-align: left;
+  font-size: 20px;
+}

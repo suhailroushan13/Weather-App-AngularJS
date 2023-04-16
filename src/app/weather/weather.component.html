@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="centered">
+    <div class="own">
+      <h2>First Angular Project</h2>
+      <br />
+      <h4>Project Name : Weather App</h4>
+      <h5>Deplopyed at : 16/04/2023</h5>
+      <div class="des">
+        <h5>
+          A weather app project that uses the API from OpenWeatherMap is a great
+          way to learn how to build an Angular application that fetches data from an external
+          API and displays it in the user interface.
+          <br />
+        </h5>
+      </div>
+    </div>
+
+    <div class="mycontainer">
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header text-left">
+          <h2>{{ city }}</h2>
+          <p><img src="{{ icon }}" alt="icon of image" /></p>
+          <h5>{{ des }} | {{ temp }}°C | {{ feels }} °F</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Summary:{{ summary }}</p>
+          <p class="card-text">Temp in Celsius :{{ temp }}°C</p>
+          <p class="card-text">Temp in Fahrenheit :{{ feels }}°F</p>
+          <p class="card-text">Pressure:{{ pressure }} hpa</p>
+          <p class="card-text">Humidity:{{ humidity }}%</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
