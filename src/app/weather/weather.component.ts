@@ -14,7 +14,7 @@ export class WeatherComponent implements OnInit {
   summary: string = '';
   icon: string = '';
   city: string = 'Hyderabad';
-  units: string = 'Sri Ram Nagar';
+  units: string = 'Area';
   des: string = '';
   constructor(private weatherService: WeatherService) {}
   ngOnInit(): void {
